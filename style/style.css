@@ -1,0 +1,175 @@
+body{
+  margin: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header{
+  padding: 4px 4em;
+  background-color: #1f2937;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+header h2{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+header ol{
+  list-style: none;
+  display: flex;
+  color: #6d747d;
+}
+
+ol li{
+  margin: 0px 8px;
+}
+
+.second_div{
+  padding: 6em 4em;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: space-between;
+  
+}
+
+.second_div div{
+  padding-inline-end: 4em;
+}
+
+.second_div div h1{
+  margin-block-start: 0px;
+  margin-block-end: 0em;
+  font-size: 50px;
+}
+
+.second_div div p{
+  margin-block-start: 0.3em;
+}
+
+.second_div button{
+  background-color: rgb(59, 130, 246);
+  width: 7em;
+  height: 2em;
+  border-radius: 8px;
+  border: transparent;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 0px;
+}
+
+.img{
+  width: 700px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+}
+
+.thrid_div{
+  padding: 3em 4em;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.title p{
+  font-weight: 800;
+  font-size: 40px;
+  color: rgb(43, 53, 66);
+  margin-block-start: 0px;
+  margin-block-end: 0.65em;
+}
+
+.small-boxes{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 50px;
+  gap: 20px;
+  flex: 1;
+}
+
+
+.small-boxes div p{
+  width: 160px;
+  padding: 4px;
+  text-align: center;
+}
+
+.box{
+  border: 3px rgb(88, 149, 247) solid;
+  width: 130px;
+  height: 130px;
+  border-radius: 16px;
+  margin: 0px 15px;
+}
+
+
+.fourth-div{
+  background-color: rgb(229, 231, 235);
+  padding: 4em 10em;
+  font-size: 20px;
+}
+
+.qoute h2{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.qouter p{
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  display: flex;
+  justify-content: right;
+}
+
+.fiveth-div{
+  padding: 3em 8em;
+}
+
+.bluebox{
+  background-color: rgb(59, 130, 246);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 12px;
+  height: 7em;
+  align-items: center;
+}
+
+.bluebox h2{
+  margin-block-end: 0px;
+}
+
+.bluebox p{
+  margin-block-start: 0px;
+}
+
+.fiveth-div button{
+  height: 3em;
+  border-color: white;
+  background-color: rgb(59, 130, 246);
+  color: white;
+  width: 7em;
+  border-radius: 8px;
+}
+
+.footer{
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  height: 2em;
+  color: white;
+}
